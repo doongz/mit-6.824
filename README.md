@@ -41,7 +41,16 @@ MIT 6.824 课程的学习资料 代码更新为2021版
 
 
 
-## 学习小组 Group
+## 实现
+稳定通过 6.824 lab 所有的测试，并尽可能的提升了代码可读性。
 
-mit6.824自学互助 QQ群：258537180(群已满)
-mit6.824自学互助二群 QQ群：682413790(群已满)
+## 文档
+- [x] [Lab1](docs/lab1.md)
+- [x] [Lab2](docs/lab2.md)
+- [x] [Lab3](docs/lab3.md)
+- [x] [Lab4](docs/lab4.md)
+    - [x] [Challenge1](docs/lab4.md)
+    - [x] [Challenge2](docs/lab4.md)
+
+## 注意
+不保证绝对的 bug-free，但每个 lab 均测试 500 次以上，无一 fail。

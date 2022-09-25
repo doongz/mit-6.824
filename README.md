@@ -1,4 +1,4 @@
-# MIT-6.824
+# MIT-6.824 Distributed Systems
 Basic Sources for MIT 6.824 Distributed Systems Class
 
 ## 简介

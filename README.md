@@ -1,17 +1,36 @@
 # MIT-6.824
 Basic Sources for MIT 6.824 Distributed Systems Class
 
-MIT 6.824 课程的学习资料 代码更新为2021版
+## 简介
 
-## 课程安排 Schedule
+一直在断断续续的学习mit 6.824 分布式系统这门课程。分布式系统是现在计算机软件系统中不可避免的一种架构，了解分布式系统对于构建任何大型分布式应用，对于理解分布式程序的运行，对于优化分布式程序的运行环境都有一定的帮助。
 
-[课程安排](https://pdos.csail.mit.edu/6.824/schedule.html)
+mit6.824 这门课程可以说是明星课程了，主讲老师是Robert Morris，这个看起来平易近人的小老头，是个传奇人物。能够听这样的传奇人物叨叨十几个小时，本身就是一种享受，更何况Robert教授能够一种理论联系实际的方式，将主流的分布式系统软件讲的浅显易懂。
 
-## 视频 Videos
+这门课程总共有20节课，4个实验，实验都是基于golang完成，课程配套了实验相关的测试用例，动手完成实验可以加深对于相关知识的理解。所有课程内容可以在【2】找到。
 
-[2020年lectures视频地址](https://www.bilibili.com/video/av87684880)
+课程链接： [https://pdos.csail.mit.edu/6.824/](https://pdos.csail.mit.edu/6.824/)
 
-## 讲座 Lectures
+课表：[https://pdos.csail.mit.edu/6.824/schedule.html](https://pdos.csail.mit.edu/6.824/schedule.html)
+
+视频 6.824 / 2020：[https://www.bilibili.com/video/BV1R7411t71W?p=1](https://www.bilibili.com/video/BV1R7411t71W?p=1)
+
+视频 6.824 / Spring 2021：[https://www.bilibili.com/video/BV16f4y1z7kn?p=16](https://www.bilibili.com/video/BV16f4y1z7kn?p=16)
+
+课程翻译 2020：[https://mit-public-courses-cn-translatio.gitbook.io/mit6-824/](https://mit-public-courses-cn-translatio.gitbook.io/mit6-824/)
+
+中文学习资料+2021版本代码：[https://github.com/chaozh/MIT-6.824](https://github.com/chaozh/MIT-6.824)
+
+2021版本实验记录：[https://github.com/OneSizeFitsQuorum/MIT6.824-2021
+
+## 文档
+
+- [x] Lab 1: MapReduce [手册](./docs/lab1-手册.md) [实现](./docs/lab1-实现.md)
+- [x] Lab 2: Raft [手册](./docs/lab2-手册.md) [实现](./docs/lab2-实现.md)
+- [x] Lab 3: Fault-tolerant Key/Value Service [手册](./docs/lab3-手册.md) [实现](./docs/lab3-实现.md)
+- [x] Lab 4: Sharded Key/Value Service [手册](./docs/lab4-手册.md) [实现](./docs/lab4-实现.md)
+
+## 讲座
 
 - [Lec1: 入门介绍(以MapReduce为例)](https://github.com/chaozh/MIT-6.824/issues/2)
 - [Lec2: RPC与线程机制(Go语言实战)](https://github.com/chaozh/MIT-6.824/issues/3)
@@ -20,7 +39,7 @@ MIT 6.824 课程的学习资料 代码更新为2021版
 - [Lec 5：Raft基本](https://github.com/chaozh/MIT-6.824/issues/9)
 - [Lec6：Raft实现](https://github.com/chaozh/MIT-6.824/issues/10)
 
-## 问题 Questions
+## 问题
 
 记录在issues中
 
@@ -38,19 +57,3 @@ MIT 6.824 课程的学习资料 代码更新为2021版
 - [GFS(2003)](https://static.googleusercontent.com/media/research.google.com/zh-CN//archive/gfs-sosp2003.pdf)
 - [Fault-Tolerant Virtual Machines(2010)](https://pdos.csail.mit.edu/6.824/papers/vm-ft.pdf)
 - [Raft Extended(2014)](https://pdos.csail.mit.edu/6.824/papers/raft-extended.pdf)
-
-
-
-## 实现
-稳定通过 6.824 lab 所有的测试，并尽可能的提升了代码可读性。
-
-## 文档
-- [x] [Lab1](docs/lab1.md)
-- [x] [Lab2](docs/lab2.md)
-- [x] [Lab3](docs/lab3.md)
-- [x] [Lab4](docs/lab4.md)
-    - [x] [Challenge1](docs/lab4.md)
-    - [x] [Challenge2](docs/lab4.md)
-
-## 注意
-不保证绝对的 bug-free，但每个 lab 均测试 500 次以上，无一 fail。

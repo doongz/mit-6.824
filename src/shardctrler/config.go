@@ -301,11 +301,9 @@ func (cfg *config) Leader() (bool, int) {
 	defer cfg.mu.Unlock()
 
 	for i := 0; i < cfg.n; i++ {
-		if cfg.servers[i] != nil {
-			_, is_leader := cfg.servers[i].rf.GetState()
-			if is_leader {
-				return true, i
-			}
+		_, is_leader := cfg.servers[i].rf.GetState()
+		if is_leader {
+			return true, i
 		}
 	}
 	return false, 0
